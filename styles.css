@@ -4,7 +4,7 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
-    /* min-height: 100vh; */
+    min-height: 100vh;
 }
 
 .header {
@@ -132,6 +132,11 @@ button {
     color: #F9FAF8;
     width: 700px;
     margin:4% auto;
+}
+
+.mes {
+    display: flex;
+    flex-direction: column;
 }
 
 .message {
