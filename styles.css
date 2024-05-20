@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+}
+
+.header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    height: 70px;
+    padding-bottom: 2%;
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+    font-size: 18px;
+}
+
+.logo {
+    font-weight: bolder;
+    width:55%;
+}
+
+.content {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    gap: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: #F9FAF8;
+    gap: 15px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.para {
+    font-size: 18px;
+    width: 500px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 14px;
+    padding: 10px 40px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    align-items: center;    
+    gap: 20px;
+}
+
+.boxes {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    border: 5px solid #3882f6;
+    flex-shrink: 0;
+}
+
+.box-text {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+}
+
+.txt {
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    font-size: 18px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 5% 0;
+}
+
+.line {
+    font-size: 36px;
+    font-style: italic;
+    width: 40%;
+    margin-bottom: 0%;
+}
+
+.by {
+    width: 40%;
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    margin: auto;
+    border-radius: 14px;
+    padding: 3% 10%;
+    color: #F9FAF8;
+    width: 700px;
+    margin:4% auto;
+}
+
+.message {
+    font-size: 24px;
+}
+
+.button {
+    border-radius: 14px;
+    border: 3px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 2%;
+}
