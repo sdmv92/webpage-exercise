@@ -4,6 +4,7 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     min-height: 100vh;
 }
 
@@ -20,19 +21,20 @@ body {
 
 .links {
     display: flex;
+    flex-shrink: 0;
     gap: 32px;
     font-size: 18px;
 }
 
 .logo {
     font-weight: bolder;
-    width:55%;
+    width:50%;
 }
 
 .content {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 500px;
     gap: 50px;
@@ -41,7 +43,6 @@ body {
 .main {
     display: flex;
     flex-direction: column;
-    width: 30%;
     color: #F9FAF8;
     gap: 15px;
 }
@@ -69,7 +70,6 @@ button {
 .random {
     display: flex;
     flex-direction: column;
-    /* width: 50%; */
     align-items: center;    
     gap: 20px;
 }
@@ -87,6 +87,12 @@ button {
     flex-shrink: 0;
 }
 
+.box img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12%;
+}
+
 .box-text {
     display: flex;
     gap: 7%;
@@ -98,6 +104,7 @@ button {
     height: 160px;
     flex-shrink: 0;
     font-size: 18px;
+    text-align: center;
 }
 
 .quote {
@@ -153,5 +160,18 @@ button {
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 2%;
+    padding: 40px;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    border-radius: 15%;
+    flex-shrink: 0;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
 }
