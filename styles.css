@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .header {
@@ -113,12 +113,15 @@ button {
     align-items: center;
     background-color: #e5e7eb;
     padding: 5% 0;
+    justify-content: center;
+    flex-grow: 1;
+    height: 300px;
 }
 
 .line {
     font-size: 36px;
     font-style: italic;
-    width: 40%;
+    width: 70%;
     margin-bottom: 0%;
 }
 
