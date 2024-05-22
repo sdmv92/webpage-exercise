@@ -38,8 +38,7 @@ body {
     align-items: center;
     /* height: 500px; */
     gap: 50px;
-    padding: 0 0 10% 0;
-    flex-wrap: wrap;
+    padding: 0 0 5% 0;
 }
 
 .main {
